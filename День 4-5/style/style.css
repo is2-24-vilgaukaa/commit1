@@ -1,0 +1,100 @@
+*
+{
+ font-family: Comic Sans Ms;
+    
+}
+
+:root
+{
+--transition: 1.25s cubic-bezier(.2, .5, 0, 1);
+}
+
+
+body
+{
+background: url(../picture/fons.jpg);
+background-size: 100%;
+}
+
+header
+{
+text-align: center;
+}
+
+.head img
+{
+width: 400;
+height: 190; 
+}
+
+
+footer 
+{ 
+    background: rgb(254, 251, 183); 
+    margin-top: 420; 
+    overflow: auto; 
+    position: relative; 
+}
+
+footer img
+{
+width: 50;
+height: 50;
+}   
+
+.navMenu 
+{
+background: rgb(254, 251, 183);  
+background-size: 100%; 
+position: absolute;
+top: 35%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+}
+  
+.navMenu a {
+color: black;
+text-decoration: none;
+font-size: 1.2em;
+text-transform: uppercase;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+  
+.navMenu a:hover {
+color: red;
+}
+  
+.navMenu .dot {
+width: 10px;
+height: 10px;
+background: red;
+border-radius: 50%;
+-webkit-transform: translateX(30px);
+transform: translateX(30px);
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+ }
+
+ .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(120px);
+    transform: translateX(120px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(320px);
+    transform: translateX(320px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(530px);
+    transform: translateX(530px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
